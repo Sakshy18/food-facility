@@ -1,0 +1,241 @@
+body{
+    background: url('../Images/back-3.jpg') no-repeat  ;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Home {
+    text-align: center;
+  }
+  
+  /* header */
+  
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 5px rgba(9, 9, 9, 0.2);
+    font-size: larger;
+    color: #003566;
+    background-color: rgb(53, 53, 53);
+  }
+  
+  #logo{
+    width: 70px;
+    height: 50px;
+    margin: 10px;
+  }
+  
+  header p {
+    font-size: 0.75em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(149, 149, 149);
+    text-align: center;
+    margin: 0px 10px;
+    margin-top: 14px;
+  }
+  
+  #companyName{
+    font-family: cursive;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  
+  header .navsection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  
+  header #navlinksection{
+    justify-content: flex-end;
+    padding-right: 5%;
+  }
+  
+  header .navlinks{
+    margin: 0 3%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header .navlinks:hover{
+    color: #ffa900;
+  }
+  
+  /* section */
+  
+  #menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+  }
+  
+  .table {
+    margin: 0px 10px;
+    border: 2px solid rgb(232 232 232);
+    border-radius: 0.5em;
+    border-spacing: 0;
+  }
+  
+  th {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-radius: 0.5em;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-weight: 400;
+    padding: 5px 10px;
+  }
+  
+  td {
+    text-align: center;
+   
+  }
+  
+  
+  tbody tr:nth-child(even){
+    background-color: rgb(255, 103, 103);
+  }
+  
+  tbody tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .column{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #bill{
+    margin: 10px;
+  }
+  
+  section .modify:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 2px;
+  }
+  
+  .btn{
+    border: 2px solid rgb(252, 65, 65);
+    background-color: rgb(255, 103, 103);
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 1% 5%;
+    margin: 3%;
+  }
+  
+  .btn:hover{
+    border-color:  rgb(255, 103, 103);
+    background-color:  rgb(255, 255, 255);
+    font-weight: bold;
+    transform: scale(1.0);
+  }
+  
+  /* Bill Heading */
+  
+  #billHeading {
+    text-transform: uppercase;
+    font-family: Arial;
+    margin: 0;
+    
+  }
+  .billHeading{
+    color: #ffffff;
+    
+  }
+  .billSubHeading{
+    color: #ffffff;
+  }
+  .total{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: #ffffff;
+  }
+  .billTabletd{
+    background-color: #ffffff;
+    color: tomato;
+  }
+  .bill-det{
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Viewreport */
+  #viewreport{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #viewreport #viewreportStatus{
+    text-align: center;
+    width: 100%;
+  }
+  
+  #viewreport .btn{
+    border: 2px solid rgb(252, 65, 65);
+    background-color: rgb(255, 103, 103);
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 0.5% 2%;
+    margin: 1%;
+  }
+  
+  #viewreport .btn:hover{
+    border-color: rgb(252, 65, 65);
+    cursor: pointer;
+    background-color: rgb(255, 103, 103);
+    font-weight: bold;
+    transform: scale(1.0);
+  }
+  
+  #viewreport #reportPrinterIcon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  #viewreport #reportDetails{
+    text-align: center;
+    width: 100%;
+  }
+  
+  #viewreport #reportDetails #viewreportHeading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1% 0;
+  }
+  
+  #viewreport #viewreportTable{
+    margin: auto;
+  }
+  
+  #totalOnHomePage {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+  }
+  .bill-home{
+    display: flex;
+    height: 100%;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5em;
+    /* padding-left: 2em; */
+    width: 400px;
+  }
+  
