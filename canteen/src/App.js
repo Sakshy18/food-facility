@@ -1,6 +1,6 @@
 import  { Routes, Route } from "react-router-dom";
 // import Home from "./Components/Home";
-import Home from "./Components/Home"
+import Home from "../src//Components/Home"
 import Team from "./Components/Team";
 import "./Assets/Styles/Home.css";
 import "./Assets/Styles/Home.css";
